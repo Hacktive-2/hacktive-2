@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
-import logo from './logo.svg'
-import './App.css'
 
-import brace from 'brace'
+// import brace from 'brace'
 import AceEditor from 'react-ace'
 
 import 'brace/mode/jsx'
@@ -21,13 +19,13 @@ export default class Editor extends Component {
       enableBasicAutocompletion: true,
       enableLiveAutocompletion: true,
       fontSize: 14,
-      showGutter: true,
+      // showGutter: true,
       showPrintMargin: true,
       highlightActiveLine: true,
       tabSize: 2,
-      wrapEnabled: true,
-      width: '100%',
-      height: '100%'
+      wrapEnabled: true
+      //   width: '100%',
+      //   height: '100%'
     }
   }
 
